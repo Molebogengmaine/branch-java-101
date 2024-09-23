@@ -2,12 +2,15 @@ package InterfaceJavaExample;
 
 public class TestInterface implements InterfaceExample2 {
 
+
+    String name;
     public static void main(String[] args) {
         String reference = "";
         TestInterface testInterface = new TestInterface();
         testInterface.myName();
         testInterface.myLastName(reference);
     }
+
 
     @Override
     public void myName() {
