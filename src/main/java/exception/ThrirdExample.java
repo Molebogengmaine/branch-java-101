@@ -11,7 +11,8 @@ public class ThrirdExample {
 
 
     public static void main(String[] args) {
-
+//2147483648
+        long max = 2147483648L;
         try
         {
             Scanner obj = new Scanner(System.in);
