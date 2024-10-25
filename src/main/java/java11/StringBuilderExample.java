@@ -12,7 +12,10 @@ public class StringBuilderExample {
 
         builder1.append(hello);//if it was a String it would need a reference
         builder2.append(builder1).append(" world");//e.g var answer = builder.concat(builder).concat(" world)
-
+        /***********
+         *
+         * PLEASE NOTE StringBuilder object is self referencing therefore anychanges done above will change
+         */
         System.out.println(builder1);
         System.out.println(builder2);
     }
