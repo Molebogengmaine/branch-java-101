@@ -1,2 +1,3 @@
 rootProject.name = 'PacakgesAndImports'
+include 'MyFirstModule'
 
